@@ -1,9 +1,13 @@
+using System.Collections.Generic;
 namespace AppUser.Domain
 {
-    public class Sala
+    public class Sala : BaseEntity
     {
-        public string Name { get; set; }
-        public int QuantidadeAssentos { get; set; }
-        public int AssentosOcupados { get; set; }
+        public string TipoSala { get; set; }
+        public int Capacidade { get; set; }
+        public int TotalPessoas { get; set; }
+        public int TotalComputadores { get; set; }
+        public string UnidInstitucional { get; set; }
+        List<Acesso> Acessos { get; set; }
     }
 }

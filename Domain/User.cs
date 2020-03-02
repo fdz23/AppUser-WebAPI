@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 namespace AppUser.Domain
 {
     public class User : BaseEntity
@@ -8,5 +9,6 @@ namespace AppUser.Domain
         public string Password { get; set; }
         public string CodeRFID { get; set; }
         public string Token { get; set; }
+        public List<Acesso> Acessos { get; set; }
     }
 }

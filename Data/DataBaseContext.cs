@@ -9,7 +9,7 @@ namespace AppUser.Data
         public DbSet<Acesso> Acesso { get; set; }
         public DbSet<Sala> Sala { get; set; }
 
-        public DataBaseContext(DbContextOptions<DataBaseContext> options)
+        public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
             
         }

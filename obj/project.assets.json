@@ -8544,24 +8544,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/mac01/.nuget/packages/": {}
+    "C:\\Users\\fdz\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mac01/Documents/Proj/AppUser/AppUser.csproj",
+      "projectUniqueName": "D:\\Prog\\ASP .NET CORE\\AppUserApi\\AppUser-WebAPI\\AppUser.csproj",
       "projectName": "AppUser",
-      "projectPath": "/Users/mac01/Documents/Proj/AppUser/AppUser.csproj",
-      "packagesPath": "/Users/mac01/.nuget/packages/",
-      "outputPath": "/Users/mac01/Documents/Proj/AppUser/obj/",
+      "projectPath": "D:\\Prog\\ASP .NET CORE\\AppUserApi\\AppUser-WebAPI\\AppUser.csproj",
+      "packagesPath": "C:\\Users\\fdz\\.nuget\\packages\\",
+      "outputPath": "D:\\Prog\\ASP .NET CORE\\AppUserApi\\AppUser-WebAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/mac01/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\fdz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8619,7 +8626,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
